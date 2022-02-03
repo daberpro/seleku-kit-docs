@@ -13,4 +13,5 @@ App.get("/*", (req, res) => {
 
 });
 
-App.listen();
+const PORT = process.env.PORT || 3001;
+App.listen(PORT);
