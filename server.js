@@ -13,4 +13,4 @@ App.get("/*", (req, res) => {
 
 });
 
-App.listen(() => console.log("server running at port "+PORT));
+App.listen();
