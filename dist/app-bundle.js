@@ -631,7 +631,7 @@
       },
       id: ""
     }), dabMain.createRawComponent(`h1`, {
-      content: "`By Ari Susanto (Daberdev)`",
+      content: "`By Daberdev`",
       parentComponent: "77760008130647908130778068309323",
       positionComponent: "15702017134945009132107004099022",
       state: {},
@@ -639,7 +639,7 @@
       attribute: {},
       id: ""
     }), dabMain.createRawComponent(`p`, {
-      content: "`framework ini merupakan framework buatan orang indonesia, dan memiliki tujuan utama                    untuk mempermudah para developer ytang berasal dari indonesia                `",
+      content: "`framework ini merupakan framework buatan orang indonesia, dan memiliki tujuan utama                    untuk mempermudah para developer yang berasal dari indonesia                `",
       parentComponent: "77760008130647908130778068309323",
       positionComponent: "19702490100242688590887302048205",
       state: {},
