@@ -2,7 +2,6 @@ import { default as express } from "express";
 const App = express();
 import { fileURLToPath } from 'url';
 import path from "path";
-const PORT = 3000;
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -14,4 +13,4 @@ App.get("/*", (req, res) => {
 
 });
 
-App.listen(PORT, "0.0.0.0", () => console.log("server running at port "+PORT));
+App.listen(() => console.log("server running at port "+PORT));
